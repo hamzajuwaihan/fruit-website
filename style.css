@@ -1,0 +1,150 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:491px){
+    body {
+        font-size: small;
+    }
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    #support span {
+     display: none;   
+    }
+    #user-login span {
+     display: none;   
+    }
+    #login{
+        height: 100px;
+    }
+
+
+    #login {
+        display: flex;
+        height: 30px;
+        background-color: #f5f5f5;
+        width: 100%;
+        justify-content: space-between;
+   
+    }
+
+    #support {
+        display: flex;
+        padding: 5px;
+    }
+    #support address {
+        margin-right: 5px;
+
+    }   
+    #support img {
+        width: 20px;
+        height: 20px;
+        padding-right: 5px;
+    }
+
+
+    #social-media {
+        display: flex;
+    
+    }
+    #social-media img {
+        width: 20px;
+        height: 20px;
+    }
+    #user-login img{
+        width: 20px;
+        height: 20px;
+    }
+    #inventory img{
+        width: 20px;
+        height: 20px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        font-weight: bold;
+    }
+    nav li {
+        font-size: medium;
+        margin-right: 5px;
+        list-style-type: none;
+        display: inline-block;
+    }
+
+}
+@media screen and (min-width:492px) and (max-width:576px) {
+    body {
+        font-size: small;
+    }
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #login {
+        display: flex;
+        height: 60px;
+        background-color: #f5f5f5;
+        width: 100%;
+   
+    }
+
+    #support {
+        display: flex;
+        padding: 5px;
+    }
+    #support address {
+        margin-right: 5px;
+        padding-right:2px ;
+    }   
+    #support img {
+        width: 20px;
+        height: 20px;
+        padding-right: 5px;
+    }
+
+
+    #social-media {
+        display: flex;
+    
+    }
+    #social-media img {
+        width: 20px;
+        height: 20px;
+    }
+    #user-login img{
+        width: 20px;
+        height: 20px;
+    }
+    #inventory img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        font-weight: bold;
+    }
+    nav li {
+        font-size: medium;
+        margin-right: 5px;
+        list-style-type: none;
+        display: inline-block;
+    }
+
+}
