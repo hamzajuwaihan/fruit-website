@@ -2,5 +2,5 @@
 bunch of exercises in Coding Academy By Orange bootcamp.
 
 # live demo
-(https://hamzajuwaihan.github.io/fruit-website/
-)[fruit website]
+[fruit website](https://hamzajuwaihan.github.io/fruit-website/
+)
