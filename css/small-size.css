@@ -12,7 +12,9 @@ a {
     body {
         font-size: small;
     }
-
+    #support span {
+        display: none;
+    }
     header {
         display: flex;
         flex-wrap: wrap;
@@ -192,7 +194,7 @@ a {
 
     /* <!-- Banner Section --> */
     #banner {
-        background-image: url('./images/NicePng_fruits-png_67893.png');
+        background-image: url('../images/NicePng_fruits-png_67893.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -296,7 +298,9 @@ a {
     body {
         font-size: small;
     }
-
+    #support span {
+        display: none;
+    }
     header {
         display: flex;
         flex-wrap: wrap;
@@ -458,7 +462,7 @@ a {
 
     /* <!-- Banner Section --> */
     #banner {
-        background-image: url('./images/NicePng_fruits-png_67893.png');
+        background-image: url('../images/NicePng_fruits-png_67893.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
